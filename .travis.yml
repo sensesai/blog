@@ -11,7 +11,9 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: bab1a0f86e93e1875b3a7ad5840528055a38b083 # pengxiaotian $GH_TOKEN bab1a0f86e93e1875b3a7ad5840528055a38b083
+  # bab1a0f86e93e1875b3a7ad5840528055a38b083
+  # 9483049b36412cbd94d8d6b42dea35910adaf609
+  github-token: 9483049b36412cbd94d8d6b42dea35910adaf609 # pengxiaotian $GH_TOKEN
   keep-history: true
   on:
     branch: master
