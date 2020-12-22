@@ -102,7 +102,7 @@ theme: noise
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/sensesai/blog.git
-  branch: gh-pages
+# deploy:
+#  type: git
+#  repo: https://github.com/sensesai/blog.git
+#  branch: gh-pages
