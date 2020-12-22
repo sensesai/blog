@@ -11,7 +11,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GH_TOKEN
+  github-token: $GH_TOKEN # pengxiaotian token bab1a0f86e93e1875b3a7ad5840528055a38b083
   keep-history: true
   on:
     branch: master
