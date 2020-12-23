@@ -20,7 +20,7 @@ highlight:
 catalog: true
 
 # donate
-donate: true
+donate: false
 
 # qrcode
 qrcode: true
@@ -28,7 +28,7 @@ qrcode: true
 # comment
 # you can set gitment, uyan or disqus
 
-comment: gitment
+comment:
 
 # gitment config
 gitment_owner: sensesai
