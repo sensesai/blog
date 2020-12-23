@@ -10,7 +10,7 @@
   
   <title>
     
-      SENSES·山景智能
+      About | SENSES·山景智能
     
   </title>
   <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -152,26 +152,52 @@
   </div>
 </header>
 
-    <main class="app-body">
+    <div id="about-banner" style="background-image: url(http://file.muyutech.com/about.jpg)"></div>
+<div class="author">
+  <div class="head">
+    <img src="https://avatars1.githubusercontent.com/u/63988007?s=200&v=4" />
+  </div>
+  <h3>Senses AI</h3>
   
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/blog/2020/12/23/hello-world/">Hello World</a>
-      </h2>
-      <p class="article-date">2020年12月23日</p>
-      
-      <div class="article-summary">
-        
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
-        
-      </div>
-      <a class="more" href="/blog/2020/12/23/hello-world/">Read more</a>
-    </article>
+    <p class="description">面向未来银行的数据智能服务商.</p>
   
+  <section class="share-icons">
+    
+    
+    
+      <a class="icon-github" href="https://github.com/sensesai" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    
+    
+    
+      <a class="icon-zhihu" href="https://www.zhihu.com/org/shan-jing-zhi-neng" target="_blank">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-stack-1x fa-inverse">知</i>
+        </span>
+      </a>
+    
+    
+  </section>
+</div>
 
-  
-</main>
-
+<script>
+  (function () {
+    $('.header').removeClass('fixed-header')
+    var windowH = $(window).height();
+    var author = $('.author')
+    var bodyH = author.offset().top + author[0].offsetHeight + 71;
+    if (bodyH < windowH) {
+      author.css({
+        'margin-bottom': windowH - bodyH
+      })
+    }
+  })();
+</script>
 
     <div class="scroll-top">
   <span class="arrow-icon"></span>
