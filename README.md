@@ -17,6 +17,8 @@ npm install
 npx hexo new "标题名"
 ```
 
+- 文章内容格式：https://hexo.io/zh-cn/docs/front-matter
+
 - 生成静态文件
 ```npm
 npm run build
